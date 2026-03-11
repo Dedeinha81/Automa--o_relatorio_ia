@@ -1,0 +1,14 @@
+
+# Ignorar planilhas de dados
+*.csv
+*.xlsx
+*.xls
+
+# Ignorar arquivos temporários e relatórios gerados
+*.pdf
+*.png
+__pycache__/
+
+# Ignorar pastas de ambiente virtual 
+venv/
+.venv/
