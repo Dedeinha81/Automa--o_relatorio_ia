@@ -4,3 +4,4 @@ pandas
 matplotlib
 groq
 fpdf
+openpyxl

@@ -11,14 +11,13 @@ st.set_page_config(page_title="Luna AI Analytics", page_icon="🌙", layout="cen
 
 # 2. GERENCIAMENTO SEGURO DA CHAVE (SISTEMA DE COFRE) 
 try:
-    # Quando estiver no Streamlit Cloud, ele pegará do 'Secrets' automaticamente
     chave = st.secrets["GROQ_API_KEY"]
 except Exception:
-    # Para teste local no PC, coloque sua chave entre as aspas abaixo
-    chave = "SUA_CHAVE_AQUI" 
+    chave = "SUA_CHAVE_AQUI"
 
-if not chave or chave == "SUA_CHAVE_AQUI":
-    st.warning("⚠️ Configuração necessária: A chave da API não foi encontrada.")
+# Se a chave não existir ou estiver vazia, avisa o usuário
+if not chave:
+    st.warning("⚠️ Configuração necessária: A chave da API não foi encontrada nos Secrets do Streamlit.")
     client = None
 else:
     client = Groq(api_key=chave)
