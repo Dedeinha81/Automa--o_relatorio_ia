@@ -35,7 +35,7 @@ git clone [https://github.com/Dedeinha81/Automa--o_relatorio_ia.git]
 
    ---
    
-Instale as dependências:
+2. Instale as dependências:
 
 pip install -r requirements.txt
 
@@ -43,14 +43,14 @@ Configure sua chave da API Groq no código ou como variável de ambiente.
 
 ---
 
-Execute o app:
+3. Execute o app:
 
 streamlit run app.py
 
 ---
 ## 🔗 Demonstração Online
 
-Clique no botão abaixo para acessar a aplicação rodando ao vivo:
+4. Clique no botão abaixo para acessar a aplicação rodando ao vivo:
 
 [![Abrir no Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://automa--orelatorioia-8twaanrznooyrtft255mxh.streamlit.app/)
 
@@ -58,4 +58,4 @@ Clique no botão abaixo para acessar a aplicação rodando ao vivo:
 
 👩‍💻 Desenvolvido por
 
-Andrea (Sham) Back-End Developer em formação, apaixonada por automação e Inteligência Artificial.
+Andrea  Back-End Developer em formação, apaixonada por automação e Inteligência Artificial.
