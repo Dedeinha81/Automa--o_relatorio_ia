@@ -12,3 +12,4 @@ __pycache__/
 # Ignorar pastas de ambiente virtual 
 venv/
 .venv/
+.streamlit/
