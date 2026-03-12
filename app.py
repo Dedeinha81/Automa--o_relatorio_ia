@@ -13,7 +13,7 @@ st.set_page_config(page_title="Luna AI Analytics", page_icon="🌙", layout="cen
 try:
     chave = st.secrets["GROQ_API_KEY"]
 except Exception:
-    chave = "SUA_CHAVE_AQUI"
+    chave = ""
 
 # Se a chave não existir ou estiver vazia, avisa o usuário
 if not chave:
